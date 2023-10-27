@@ -12,9 +12,9 @@ const Navbar = () => {
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>
                     {
-                        open === false ? <Bars3Icon className="h-6 w-6 hover:bg-purple-700 text-blue-500 cursor-pointer" />
+                        open === false ? <Bars3Icon className="h-6 w-6 hover:bg-purple-700 p-1 rounded-md text-blue-500 cursor-pointer" />
                             :
-                            <XMarkIcon className="h-6 w-6 hover:bg-purple-700 text-blue-500 cursor-pointer" />
+                            <XMarkIcon className="h-6 w-6 hover:bg-purple-700 p-1 rounded-md text-blue-500 cursor-pointer" />
                     }
                 </span>
 
