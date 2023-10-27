@@ -1,4 +1,6 @@
 import React from 'react';
+import { ArrowTrendingUpIcon, ArrowTopRightOnSquareIcon, UserGroupIcon } from '@heroicons/react/24/solid'
+
 
 const Home = () => {
     return (
@@ -11,24 +13,29 @@ const Home = () => {
             </div>
             <div className='text-white gap-3  grid md:grid-cols-3 lg:grid-cols-3 mt-16'>
                 <div className='w-2/3 border border-gray-200 rounded-md shadow-md flex gap-8 items-center px-4 py-5'>
-                    <p>oklk</p>
+                    <ArrowTrendingUpIcon className="h-14 w-16 hover:bg-purple-700 p-1 rounded-md text-blue-500 cursor-pointer" />
+
+
                     <div>
-                        <p >okok</p>
-                        <p >$0</p>
+                        <p className='text-3xl'>okok</p>
+                        <p className='text-3xl'>$0</p>
                     </div>
                 </div>
                 <div className='w-2/3 border border-gray-200 rounded-md shadow-md flex gap-8 items-center px-4 py-5'>
-                    <p>oklk</p>
+
+                    <ArrowTopRightOnSquareIcon className="h-14 w-16 hover:bg-purple-700 p-1 rounded-md text-blue-500 cursor-pointer" />
+
                     <div>
-                        <p >okok</p>
-                        <p >$0</p>
+                        <p className='text-3xl'>okok</p>
+                        <p className='text-3xl'>$0</p>
                     </div>
                 </div>
                 <div className='w-2/3 border border-gray-200 rounded-md shadow-md flex gap-8 items-center px-4 py-5'>
-                    <p>oklk</p>
+
+                    <UserGroupIcon className="h-14 w-16 hover:bg-purple-700 p-1 rounded-md text-blue-500 cursor-pointer" />
                     <div>
-                        <p >okok</p>
-                        <p >$0</p>
+                        <p className='text-3xl'>okok</p>
+                        <p className='text-3xl'>$0</p>
                     </div>
                 </div>
             </div>
