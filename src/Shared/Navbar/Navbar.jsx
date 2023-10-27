@@ -6,11 +6,11 @@ const Navbar = () => {
 
 
     return (
-        <div className=' no-underline bg-purple-700 gap-3'>
+        <div className='  gap-3'>
             <div>
 
             </div>
-            <div>
+            <div className='bg-purple-700 px-3 py-2 font-bold lg:flex'>
                 <Link className='no-underline '>Romi Finance</Link>
                 <Link className='no-underline ml-4'>Home</Link>
                 <Link className='no-underline ml-4'>Home</Link>
