@@ -6,17 +6,17 @@ const Navbar = () => {
 
 
     return (
-        <div className='  gap-3'>
+        <div className=' no-underline  gap-3'>
             <div>
 
             </div>
-            <div className='bg-purple-700 px-3 py-2 font-bold lg:flex'>
-                <Link className='no-underline '>Romi Finance</Link>
-                <Link className='no-underline ml-4'>Home</Link>
-                <Link className='no-underline ml-4'>Home</Link>
-                <Link className='no-underline ml-4'>Home</Link>
-                <Link className='no-underline ml-4'>Home</Link>
-                <Link className='no-underline ml-4'>Home</Link>
+            <div className='bg-purple-700 px-3 py-2 font-bold list-none  lg:flex'>
+                <li className='no-underline list-none'><Link >Romi Finance</Link></li>
+                <li><Link >Home</Link></li>
+                <li><Link >About</Link></li>
+                <li><Link >Dashboard</Link></li>
+                <li><Link >Earn</Link></li>
+                
             </div>
         </div>
     );
