@@ -8,7 +8,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='bg-black'>
+        <nav className='bg-[#0F0F0F] shadow-purple-200'>
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>
                     {
@@ -19,9 +19,9 @@ const Navbar = () => {
                 </span>
 
             </div>
-            <ul className={` gap-4 items-center justify-center absolute md:static bg-black text-white duration-500 md:flex p-3  ml-0 shadow-md ${open ? "top-6" : "-top-48"}`}>
+            <ul className={` gap-4 items-center justify-center absolute md:static bg-[#0F0F0F] text-white duration-500 md:flex p-3  ml-0 shadow-purple-200 ${open ? "top-6" : "-top-48"}`}>
 
-                <li className='hover:bg-purple-700 rounded-md p-1'><Link >Romi Finance</Link></li>
+                <li className='hover:bg-purple-700 rounded-md p-1'> <Link >Romi Finance</Link></li>
                 <li className='hover:bg-purple-700 rounded-md p-1'> <Link >Home</Link></li>
                 <li className='hover:bg-purple-700 rounded-md p-1'> <Link >About</Link></li>
                 <li className='hover:bg-purple-700 rounded-md p-1'> <Link >Dashboard</Link></li>
